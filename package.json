@@ -1,0 +1,52 @@
+{
+  "name": "yorumlar-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emoji-mart/data": "^1.2.1",
+    "@emoji-mart/react": "^1.1.1",
+    "@headlessui/react": "^2.2.0",
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-switch": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.7.8",
+    "chart.js": "^4.4.6",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "emoji-mart": "^5.6.0",
+    "emoji-picker-react": "^4.12.0",
+    "framer-motion": "^11.11.17",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.460.0",
+    "next": "15.0.3",
+    "next-auth": "^4.24.10",
+    "next-themes": "^0.4.3",
+    "postcss": "^8.4.31",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-hook-form": "^7.53.2",
+    "react-intersection-observer": "^9.13.1",
+    "react-quill": "^2.0.0",
+    "recharts": "^2.13.3",
+    "sonner": "^1.7.0",
+    "swiper": "^11.1.15",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.3.5",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3"
+  }
+}
